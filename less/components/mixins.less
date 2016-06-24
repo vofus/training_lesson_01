@@ -10,6 +10,14 @@
   font-style: @font-style;
 }
 
+.bg-img(@img, @pos:center center, @att:scroll) {
+	background-image: url('@{img-folder}@{img}');
+	background-position: @pos;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: @att;
+}
+
 .transition(@prop: all, @time: 0.3s, @ease: ease-in-out) {
   transition: @prop @time @ease;
 }
