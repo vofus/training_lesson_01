@@ -391,6 +391,7 @@ header .header__slider .slider-wrap .header-carousel .owl-next {
   background-color: transparent;
   border: 2px solid #fff;
   border-radius: 50%;
+  transition: border-color 0.3s ease-in-out;
 }
 header .header__slider .slider-wrap .header-carousel .owl-prev {
   float: left;
@@ -410,6 +411,7 @@ header .header__slider .slider-wrap .header-carousel .owl-prev::after {
   top: 50%;
   left: 60%;
   transform: translate(-50%, -50%) rotate(-45deg);
+  transition: border-color 0.3s ease-in-out;
 }
 header .header__slider .slider-wrap .header-carousel .owl-next::after {
   content: "";
@@ -423,6 +425,16 @@ header .header__slider .slider-wrap .header-carousel .owl-next::after {
   top: 50%;
   left: 40%;
   transform: translate(-50%, -50%) rotate(135deg);
+  transition: border-color 0.3s ease-in-out;
+}
+header .header__slider .slider-wrap .header-carousel .owl-prev:hover,
+header .header__slider .slider-wrap .header-carousel .owl-next:hover {
+  border-color: #71b6d5;
+}
+header .header__slider .slider-wrap .header-carousel .owl-prev:hover::after,
+header .header__slider .slider-wrap .header-carousel .owl-next:hover::after {
+  border-left-color: #71b6d5;
+  border-top-color: #71b6d5;
 }
 header .header__slider .slider-wrap .item {
   position: relative;

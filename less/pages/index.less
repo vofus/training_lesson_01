@@ -57,6 +57,7 @@ header {
 				    background-color: transparent;
 				    border: 2px solid #fff;
 				    border-radius: 50%;
+				    .transition(border-color);
 				}
 				.owl-prev {float: left;}
 				.owl-next {float: right;}
@@ -72,6 +73,7 @@ header {
 				    top: 50%;
 				    left: 60%;
 				    transform: translate(-50%,-50%) rotate(-45deg);
+				    .transition(border-color);
 				}
 				.owl-next::after {
 					content: "";
@@ -85,6 +87,14 @@ header {
 				    top: 50%;
 				    left: 40%;
 				    transform: translate(-50%,-50%) rotate(135deg);
+				    .transition(border-color);
+				}
+				.owl-prev:hover, .owl-next:hover {
+					border-color: @accent_color;
+					&::after {
+						border-left-color: @accent_color;
+						border-top-color: @accent_color;
+					}
 				}
 			}
 			.item {
@@ -112,7 +122,7 @@ header {
 					border-radius: 6px;
 					color: #fff;
 					text-transform: uppercase;
-					background-color: #71b6d5;
+					background-color: @accent_color;
 					font-size: 1.21rem;
 					font-weight: 800;
 					text-align: center;
