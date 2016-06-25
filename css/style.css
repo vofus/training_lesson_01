@@ -521,6 +521,52 @@ header nav .nav-wrap .menu li a.active-item {
 header nav .nav-wrap .menu li a.active-item:hover {
   text-decoration: none;
 }
+/*=========*/
+/*=========*/
+.card {
+  width: 320px;
+  height: 250px;
+  margin-top: 60px;
+  border: 2px solid #999;
+  border-radius: 6px;
+  overflow: visible;
+  position: relative;
+  background-image: url('../imgs/section-top__img-01.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: initial;
+  float: left;
+}
+.card .card__icon {
+  width: 94px;
+  height: 94px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-top: -47px;
+  margin-left: -47px;
+  background-color: #71b6d5;
+  border: 10px solid #fff;
+  border-radius: 50%;
+}
+.card img {
+  display: none;
+}
+.card .card__header {
+  font-size: 1.43rem;
+  color: #484848;
+  position: relative;
+  top: 60%;
+  text-align: center;
+}
+.card .card__description {
+  font-size: 1.1rem;
+  color: #484848;
+  position: relative;
+  top: 65%;
+  text-align: center;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
