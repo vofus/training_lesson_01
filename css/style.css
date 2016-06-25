@@ -337,7 +337,6 @@ header .header__slider {
   position: relative;
 }
 header .header__slider .slider-wrap {
-  background-color: rgba(255, 0, 0, 0.2);
   position: absolute;
   top: 0;
   left: 0;
@@ -464,7 +463,6 @@ header .header__slider .slider-wrap .item .show-more:hover {
   background-color: transparent;
 }
 header nav .nav-wrap {
-  background-color: rgba(0, 255, 0, 0.2);
   position: absolute;
   top: 0;
   left: 0;
@@ -499,9 +497,17 @@ header nav .nav-wrap .menu li:last-child {
 }
 header nav .nav-wrap .menu li a {
   color: #fff;
+  border: 2px solid transparent;
+  padding: 4px 6px;
 }
 header nav .nav-wrap .menu li a:hover {
   text-decoration: underline;
+}
+header nav .nav-wrap .menu li a.active-item {
+  border-color: #fff;
+}
+header nav .nav-wrap .menu li a.active-item:hover {
+  text-decoration: none;
 }
 @media (min-width: 768px) {
   .container {

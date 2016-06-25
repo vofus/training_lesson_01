@@ -5,7 +5,7 @@ header {
 		height: 560px;
 		position: relative;
 		.slider-wrap {
-			background-color: rgba(255,0,0,.2);
+			// background-color: rgba(255,0,0,.2);
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -129,7 +129,7 @@ header {
 	} // .header__slider
 	nav {
 		.nav-wrap {
-			background-color: rgba(0,255,0,.2);
+			// background-color: rgba(0,255,0,.2);
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -161,7 +161,13 @@ header {
 					}
 					a {
 						color: #fff;
+						border: 2px solid transparent;
+    					padding: 4px 6px;
 						&:hover {text-decoration: underline;}
+						&.active-item {
+							border-color: #fff;
+							&:hover {text-decoration: none;}
+						}
 					}
 				} // li
 			} // .menu
