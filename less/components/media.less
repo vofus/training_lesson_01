@@ -7,9 +7,25 @@
   .container {
     width: 970px;
   }
+  .col-1-of-3, .col-2-of-3 {
+  	float: left;
+  }
+  .col-1-of-3 {
+  	width: 33.3333%;
+  }
+  .col-2-of-3 {
+  	width: 66.6666%;
+  }
 }
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .features__header_line {
+  	&::before, &::after {width: 40%;}
   }
 }
