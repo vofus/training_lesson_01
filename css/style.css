@@ -869,11 +869,11 @@ header nav .nav-wrap .menu li a.active-item:hover {
 /*====================*/
 /*====================*/
 footer {
-  height: 440px;
+  min-height: 440px;
   background-color: #273a43;
 }
 footer .footer-wrap {
-  height: 350px;
+  min-height: 350px;
 }
 footer .footer__bottom-line {
   height: 90px;
@@ -909,8 +909,31 @@ footer .footer-col .col-wrap .contact {
   margin-top: 16px;
 }
 footer .footer-col .col-wrap .contact i {
-  margin: 0 15px;
+  display: inline-block;
+  width: 20px;
+  color: #71b6d5;
   font-size: 1.5em;
+  text-align: center;
+}
+footer .footer-col .col-wrap .contact i + span {
+  margin-left: 20px;
+}
+footer .footer-col .col-wrap .tweet {
+  position: relative;
+  margin-left: 30px;
+}
+footer .footer-col .col-wrap .tweet i {
+  position: absolute;
+  top: 0;
+  left: -30px;
+  color: #71b6d5;
+  font-size: 1.5em;
+}
+footer .footer-col .col-wrap .tweet i + span {
+  display: block;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  color: #71b6d5;
 }
 @media (min-width: 768px) {
   .container {

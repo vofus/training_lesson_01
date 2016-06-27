@@ -451,10 +451,10 @@ header {
 // FOOTER
 /*====================*/
 footer {
-	height: 440px;
+	min-height: 440px;
 	background-color: #273a43;
 	.footer-wrap {
-		height: 350px;
+		min-height: 350px;
 	}
 	.footer__bottom-line {
 		height: 90px;
@@ -487,8 +487,31 @@ footer {
 		    .contact {
 		    	margin-top: 16px;
 		    	i {
-		    		margin: 0 15px;
+		    		display: inline-block;
+		    		width: 20px;
+		    		color: @accent_color;
 		    		font-size: 1.5em;
+		    		text-align: center;
+		    		& + span {
+		    			margin-left: 20px;
+		    		}
+		    	}
+		    }
+		    .tweet {
+		    	position: relative;
+		    	margin-left: 30px;
+		    	i {
+		    		position: absolute;
+				    top: 0;
+				    left: -30px;
+				    color: @accent_color;
+				    font-size: 1.5em;
+				    & + span {
+				    	display: block;
+					    margin-top: 6px;
+					    margin-bottom: 10px;
+					    color: @accent_color;
+				    }
 		    	}
 		    }
 		}
