@@ -671,7 +671,7 @@ header nav .nav-wrap .menu li a.active-item:hover {
 .section__header_line::after {
   content: "";
   display: inline-block;
-  width: 46%;
+  width: 45%;
   height: 2px;
   margin: 10px 0;
   background-color: #dedbdb;
@@ -800,6 +800,51 @@ header nav .nav-wrap .menu li a.active-item:hover {
   display: block;
   margin: 0 auto;
 }
+/*====================*/
+/*====================*/
+.testimonials-carousel .item {
+  text-align: center;
+}
+.testimonials-carousel .item .comment {
+  margin-top: 40px;
+  color: #575757;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.testimonials-carousel .item img {
+  display: inline-block;
+  margin-top: 30px;
+  max-width: 368px;
+}
+.testimonials-carousel .item .autor {
+  margin-top: 18px;
+  color: #484848;
+  font-weight: 600;
+}
+.testimonials-carousel .item .autor span {
+  color: #575757;
+  font-weight: 300;
+}
+.testimonials-carousel .owl-dots {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.testimonials-carousel .owl-dots .owl-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #dedbdb;
+}
+.testimonials-carousel .owl-dots .owl-dot:last-child {
+  margin-right: 0;
+}
+.testimonials-carousel .owl-dots .owl-dot.active {
+  background-color: #71b6d5;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -832,6 +877,6 @@ header nav .nav-wrap .menu li a.active-item:hover {
 @media (max-width: 992px) {
   .section__header_line::before,
   .section__header_line::after {
-    width: 40%;
+    width: 38%;
   }
 }

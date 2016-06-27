@@ -11,6 +11,12 @@
 		navText: ["",""]
 	});
 
+	$('.testimonials-carousel').owlCarousel({
+		loop:true,
+	    dots:true,
+	    items:1
+	});
+
 	$('.menu a').click(function(event) {
 		event.preventDefault();
 		var all_links = $('.menu a');
