@@ -3,6 +3,13 @@
 
   $(document).ready(function () {
 
+  	$(window).resize(function() {
+  		if ($(".menu").is(":visible")) {
+  			$(".sandwich").removeClass("active_sw");
+  			$(".mobile-menu").css('display', 'none');
+  		}
+  	});
+
   	$('.header-carousel').owlCarousel({
 	    loop:true,
 	    nav:true,
