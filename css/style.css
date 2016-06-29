@@ -935,6 +935,41 @@ footer .footer-col .col-wrap .tweet i + span {
   margin-bottom: 10px;
   color: #71b6d5;
 }
+footer .footer-col .col-wrap .email-form {
+  margin: 30px 0;
+}
+footer .footer-col .col-wrap .email-form .email-input {
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 155px;
+  height: 34px;
+  padding: 10px 15px;
+  border: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #172227;
+  font-size: 1em;
+}
+footer .footer-col .col-wrap .email-form .email-btn {
+  vertical-align: middle;
+  display: inline-block;
+  width: 45px;
+  height: 34px;
+  margin: 0;
+  margin-left: -4px;
+  border: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #71b6d5;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+footer .footer-col .col-wrap .email-form .email-btn:hover {
+  border: 2px solid #fff;
+  background-color: transparent;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
