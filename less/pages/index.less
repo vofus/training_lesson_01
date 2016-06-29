@@ -551,6 +551,38 @@ footer {
 		    }
 		}
 	}
+	.bottom-line__col {
+		float: left;
+		width: 50%;
+		height: 90px;
+		color: #fff;
+		&--social {
+			text-align: right;
+			line-height: 90px;
+		}
+		p {
+			padding: 38px 0;
+		}
+		.bottom-line__social {
+		    text-align: center;
+		    display: inline-block;
+		    width: 30px;
+		    height: 30px;
+		    margin-right: 6px;
+		    border-radius: 50%;
+		    background-color: #2c3b42;
+		    color: #fff;
+		    line-height: 30px;
+		    font-size: 1.4em;
+		    .transition;
+		    &:last-child {
+		    	margin-right: 0;
+		    }
+		    &:hover {
+		    	background-color: @accent_color;
+		    }
+		}
+	}
 }
 
 

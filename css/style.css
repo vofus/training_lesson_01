@@ -970,6 +970,38 @@ footer .footer-col .col-wrap .email-form .email-btn:hover {
   border: 2px solid #fff;
   background-color: transparent;
 }
+footer .bottom-line__col {
+  float: left;
+  width: 50%;
+  height: 90px;
+  color: #fff;
+}
+footer .bottom-line__col--social {
+  text-align: right;
+  line-height: 90px;
+}
+footer .bottom-line__col p {
+  padding: 38px 0;
+}
+footer .bottom-line__col .bottom-line__social {
+  text-align: center;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background-color: #2c3b42;
+  color: #fff;
+  line-height: 30px;
+  font-size: 1.4em;
+  transition: all 0.3s ease-in-out;
+}
+footer .bottom-line__col .bottom-line__social:last-child {
+  margin-right: 0;
+}
+footer .bottom-line__col .bottom-line__social:hover {
+  background-color: #71b6d5;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
