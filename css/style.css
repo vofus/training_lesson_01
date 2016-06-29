@@ -643,11 +643,19 @@ header nav .nav-wrap .menu li a.active-item:hover {
   margin-right: auto;
   border: 2px solid #dedbdb;
   border-radius: 6px;
-  background-image: url('../imgs/section-top__img-01.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: initial;
+}
+.card.card-01 {
+  background-image: url('../imgs/section-top__img-01.jpg');
+}
+.card.card-02 {
+  background-image: url('../imgs/section-top__img-02.jpg');
+}
+.card.card-03 {
+  background-image: url('../imgs/section-top__img-03.jpg');
 }
 .card .card__icon {
   position: absolute;

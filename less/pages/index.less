@@ -212,13 +212,19 @@ header {
     margin-right: auto;
     border: 2px solid @border_color;
     border-radius: 6px;
-    background-image: url('../imgs/section-top__img-01.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: initial;
-    // &:first-child {margin-left: 0;}
-    // &:last-child {margin-right: 0;}
+    &.card-01 {
+    	background-image: url('../imgs/section-top__img-01.jpg');
+    }
+    &.card-02 {
+    	background-image: url('../imgs/section-top__img-02.jpg');
+    }
+    &.card-03 {
+    	background-image: url('../imgs/section-top__img-03.jpg');
+    }
 
     .card__icon {
     	position: absolute;
