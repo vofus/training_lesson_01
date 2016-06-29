@@ -26,7 +26,19 @@
 		}
 	});
 
+	$(".toggle_menu").click(onClickToggleMenu);
 
+	function onClickToggleMenu() {
+		if ($(".sandwich").is(":visible")) {
+			if ($(".sandwich").is(".active_sw")) {
+				$(".sandwich").removeClass("active_sw");
+				$(".mobile-menu").slideUp(400);
+			} else {
+				$(".sandwich").addClass("active_sw");
+				$(".mobile-menu").slideDown(400);
+			};
+		};
+	};
 
   }); //end ready
 
