@@ -1019,7 +1019,7 @@ footer .bottom-line__col .bottom-line__social:hover {
 .toggle_menu {
   display: none;
   z-index: 120;
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 15px;
   height: 50px;
