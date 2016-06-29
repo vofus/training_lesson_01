@@ -1155,7 +1155,7 @@ footer .bottom-line__col .bottom-line__social:hover {
 @media (max-width: 992px) {
   .section__header_line::before,
   .section__header_line::after {
-    width: 38%;
+    width: 42%;
   }
   .projects-col {
     margin-bottom: 30px;
@@ -1170,5 +1170,11 @@ footer .bottom-line__col .bottom-line__social:hover {
   }
   .menu {
     display: none;
+  }
+}
+@media (max-width: 480px) {
+  .section__header_line::before,
+  .section__header_line::after {
+    width: 35%;
   }
 }
